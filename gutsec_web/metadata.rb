@@ -1,0 +1,11 @@
+name 'gutsec_web'
+maintainer 'Deron Jensen'
+maintainer_email 'Jensen.Deron@gmail.com'
+license 'all_rights'
+description 'Installs/Configures gutsec_web'
+long_description 'Installs/Configures gutsec_web'
+version '0.1.2'
+
+depends 'apt', '~> 2.9.2'
+depends 'httpd', '0.2.18'
+depends 'firewall', '~> 1.5.0'
